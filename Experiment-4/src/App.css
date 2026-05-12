@@ -1,0 +1,53 @@
+body{
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f8;
+}
+
+
+.h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.student1{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+   margin: 20px auto;
+   text-align: center;
+}
+
+.student1:hover {
+  transform: translateY(-5px);
+}
+
+.student1-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.student1-body {
+  padding: 16px;
+}
+
+.student1-title {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+}
+
+.student1-text {
+  color: #666;
+  font-size: 0.9rem;
+}
